@@ -43,7 +43,7 @@ public class Algorithms {
             guess = 0.5 * (guess + x / guess);
         }
 
-        return guess;
+        return Math.floor(guess);
     }
 
     public static boolean isPowerOfTwo(int n) {
